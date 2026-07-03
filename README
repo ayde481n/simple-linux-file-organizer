@@ -1,0 +1,57 @@
+Before                          After
+
+Downloads/                      Downloads/
+├── cat.jpg                      ├── Pictures/
+├── song.mp3            →        │   └── cat.jpg
+├── notes.pdf                    ├── Music/
+├── movie.mkv                    │   └── song.mp3
+├── archive.zip                  ├── Documents/
+                                 │   └── notes.pdf
+                                 ├── Videos/
+                                 │   └── movie.mkv
+                                 └── Archives/
+                                     └── archive.zip
+
+
+### Supported Extensions ###
+
+Documents — `.txt` `.pdf` `.doc` `.docx` `.odt` `.rtf` `.md` `.tex` `.pages` `.wpd` `.xps` `.djvu`
+Spreadsheets — `.csv` `.tsv` `.xls` `.xlsx` `.xlsm` `.ods` `.numbers`
+Presentations — `.ppt` `.pptx` `.odp` `.key`
+Pictures — `.jpg` `.jpeg` `.png` `.gif` `.webp` `.svg` `.bmp` `.tiff` `.tif` `.ico` `.heic` `.heif` `.avif`
+`.raw` `.cr2` `.nef` `.arw` `.dng` `.psd` `.xcf` `.ai` `.eps`
+Videos — `.mp4` `.mkv` `.mov` `.avi` `.webm` `.wmv` `.flv` `.m4v` `.mpg` `.mpeg` `.3gp` `.ts` `.ogv`
+Music — `.mp3` `.wav` `.flac` `.ogg` `.oga` `.m4a` `.aac` `.wma` `.opus` `.aiff` `.alac` `.mid` `.midi`
+Archives — `.zip` `.tar` `.gz` `.tgz` `.bz2` `.7z` `.rar` `.xz` `.zst` `.lz` `.lzma` `.cab` `.arj`
+Scripts — `.py` `.sh` `.bash` `.zsh` `.fish` `.pl` `.rb` `.lua` `.ps1` `.bat`
+Installers — `.AppImage` `.deb` `.rpm` `.flatpakref` `.snap` `.exe` `.msi` `.dmg` `.pkg` `.apk`
+DiskImages — `.iso` `.img` `.ova` `.ovf` `.vmdk` `.vdi` `.qcow2` `.vhd` `.bin` `.cue`
+Ebooks** — `.epub` `.mobi` `.azw` `.azw3` `.fb2` `.cbz` `.cbr`
+Torrents — `.torrent`
+Data — `.db` `.sqlite` `.sql` `.log` `.yaml` `.yml` `.toml`
+
+
+### How to use it ###
+git clone https://github.com/ayden481n/simple-linux-file-organizer.git
+cd simple-linux-file-organizer
+python3 main.py
+
+Type the path to the desired directory you want organized
+when prompted (e.g. `~/Downloads`) and confirm.
+
+
+### Disclaimers ###
+WARNING: Do not run this on system directories or anything where
+files depend on staying together Moving those files can break programs
+or your system. This software is provided "as is",without warranty of
+any kind. You use it at your own risk. The author is not responsible for
+any data loss, broken software, or other damage resulting from its use.
+
+
+### Requirements ###
+Needs Python 3
+
+
+### License ###
+MIT
+
