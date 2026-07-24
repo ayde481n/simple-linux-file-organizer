@@ -32,7 +32,7 @@ Data — `.db` `.sqlite` `.sql` `.log` `.yaml` `.yml` `.toml`
 
 
 ### How to use it ###
-git clone https://github.com/ayden481n/simple-linux-file-organizer.git
+git clone https://github.com/ayde481n/simple-linux-file-organizer
 cd simple-linux-file-organizer
 python3 main.py
 
